@@ -1,0 +1,13 @@
+body {
+  background-color: aqua;
+}
+.link {
+  text-decoration: none;
+  border: 2px solid red;
+  width: 100px;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  border-color: black;
+}

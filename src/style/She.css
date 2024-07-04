@@ -1,0 +1,22 @@
+body {
+  background-color: darkgray;
+}
+.general {
+  display: flex;
+  justify-content: space-between;
+}
+.child {
+  color: red;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.child p {
+  text-decoration: underline;
+}
+.child h2 {
+  color: aqua;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: underline;
+}

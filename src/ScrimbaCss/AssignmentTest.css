@@ -1,0 +1,32 @@
+body {
+  background-color: red;
+  width: 400px;
+  margin: 40px auto;
+}
+
+legend {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 160px;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+form input {
+  width: 400px;
+  padding: 14px;
+}
+
+#btns {
+  color: #fff;
+  margin-top: 40px;
+  background-color: green;
+  width: 150px;
+  padding: 7px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-left: 140px;
+}

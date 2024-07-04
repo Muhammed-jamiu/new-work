@@ -1,0 +1,45 @@
+body {
+  background-color: darkgray;
+  width: auto;
+  margin: 20px auto;
+}
+
+.general {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  border: 2px solid red;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  right: 15px;
+  background-color: black;
+  color: #fff;
+}
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.small p:nth-child(6) {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.num {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 20px;
+}

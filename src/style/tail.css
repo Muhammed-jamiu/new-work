@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn1 {
+  @apply border-2 w-40 mt-5 ml-10 rounded-xl bg-[#23ff] text-[#fff] sm:w-40 sm:bg-purple-800 md:bg-red-600 md:w-48 xl:bg-yellow-600 xl:shadow-lg xl:border-b-4 xl:border-red-600;
+}
+
+.us {
+  @apply text-white relative top-2 border-x-2 px-3 bg-black rounded-lg hover:bg-white hover:text-black;
+}
+/* body {
+  @apply bg-[#b0b0b0] w-[800px] relative left-[300px];
+} */
+
+body {
+  @apply w-[450px]
+   mt-[50px] 
+   m-[auto] 
+   h-[100vh]
+    /* bg-[#ebeff0]; */
+    bg-red-500
+    bg-[url(/public/photo.png)]
+    bg-center
+    bg-no-repeat
+    bg-cover;
+}
+.input {
+  @apply bg-[#f3f7f8]
+  border-2
+  border-blue-700
+   ml-[20px] 
+   rounded-[8px] 
+   mt-[15px] 
+   text-[17px]
+   outline-none;
+}
+.bell {
+  @apply ml-[25px]
+    relative 
+    top-[10px];
+}
+.box {
+  @apply mr-[340px] 
+   mt-[20px] 
+   h-[20px]
+  /* accent-black */
+  /* accent-[#278092] */
+  accent-red-700
+   cursor-pointer
+   relative
+   bottom-[15px]
+   rounded;
+}
+.btn {
+  @apply bg-[#278092]
+   ml-[20px]
+    relative
+    bottom-[40px]
+    w-[90%]
+    py-[7px]
+    rounded-[10px]
+    uppercase
+    text-[#fff]
+    -tracking-tighter
+    hover:bg-[#167182];
+}
+#icon {
+  @apply h-[25px]
+  w-[25px]
+  ml-[345px]
+  relative
+  bottom-[30px]
+  z-[10px]
+  cursor-pointer;
+}

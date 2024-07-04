@@ -1,0 +1,189 @@
+body {
+  background-color: darkgrey;
+}
+#container {
+  width: 1200px;
+  margin: 30px auto;
+}
+input {
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  outline: none;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+label {
+  position: relative;
+  /* display: flex; */
+  justify-content: center;
+  font-family: sans-serif;
+  letter-spacing: 1.2px;
+  color: #fff;
+  font-weight: bold;
+  left: 16px;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+.lab {
+  position: relative;
+  right: 40px;
+}
+.para {
+  font-size: 20px;
+  color: #0000ff;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  font-family: sans-serif;
+}
+#form-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 270px;
+}
+#form-wrap input {
+  position: relative;
+  width: 380px;
+}
+.input1 {
+  padding: 12px;
+  position: relative;
+  left: 44px;
+  border-color: #fff;
+}
+.input2 {
+  position: relative;
+  left: 65px;
+  padding: 12px;
+  border-color: #fff;
+}
+
+#btn {
+  color: #fff;
+  padding: 7px;
+  width: 250px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: rgb(53, 222, 53);
+  border-color: rgb(53, 222, 53);
+  border-radius: 10px;
+  margin-left: 465px;
+}
+#btn:hover {
+  cursor: pointer;
+  background-color: green;
+}
+#gender {
+  padding: 10px;
+  width: 44%;
+  position: relative;
+  left: 24px;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  outline: none;
+  border-color: #fff;
+}
+#state {
+  border-color: #fff;
+  padding: 10px;
+  width: 44%;
+  position: relative;
+  left: 50px;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  outline: none;
+}
+#lga {
+  padding: 10px;
+  width: 44%;
+  position: relative;
+  left: 45px;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  outline: none;
+  border-color: #fff;
+}
+
+select {
+  width: 250%;
+  position: relative;
+  right: 25px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+}
+.page {
+  position: relative;
+  left: 15px;
+}
+.page p {
+  color: #fff;
+  margin-left: 20px;
+}
+#stateside {
+  position: relative;
+  bottom: 0.5px;
+  width: 180%;
+  left: 7px;
+}
+
+span {
+  color: black;
+  position: relative;
+  left: 50px;
+}
+
+#main-pro {
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 5px;
+  margin: 6px;
+}
+
+#main-pro p {
+  margin-left: 20px;
+}
+
+.pro1 {
+  color: #000;
+  position: relative;
+}
+.pro2 {
+  position: relative;
+  left: 70px;
+}
+.pro3 {
+  position: relative;
+  left: 40px;
+}
+.pro4 {
+  position: relative;
+  left: 62px;
+}
+.pro5 {
+  color: black;
+  position: relative;
+  left: 57px;
+}
+.pro1,
+.pro2,
+.pro3,
+.pro4,
+.pro5 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}

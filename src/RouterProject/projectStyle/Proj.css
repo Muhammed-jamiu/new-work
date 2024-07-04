@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(196, 196, 241);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.navone {
+  display: flex;
+  gap: 40px;
+  border-radius: 10px;
+}
+.navtwo {
+  display: flex;
+  gap: 40px;
+}
+.navthree {
+  display: flex;
+  gap: 40px;
+}
+
+.navone button {
+  border-radius: 10px;
+  width: 100px;
+  background-color: rgb(117, 116, 116);
+  color: white;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 13px;
+  padding: 3px;
+}
+.navtwo button {
+  border-radius: 10px;
+  width: 100px;
+  background-color: rgb(117, 116, 116);
+  color: white;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 13px;
+  padding: 3px;
+}
+.navthree button {
+  border-radius: 10px;
+  width: 100px;
+  background-color: rgb(117, 116, 116);
+  color: white;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 13px;
+  padding: 3px;
+}
+
+.navone button:hover {
+  background-color: green;
+  color: white;
+}
+.navtwo button:hover {
+  background-color: green;
+  color: white;
+}
+.navthree button:hover {
+  background-color: green;
+  color: white;
+}

@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply h-[100%]
+  bg-[#e6edef];
+}
+
+#root {
+  @apply h-full w-full;
+}
+.container {
+  @apply w-full h-full flex justify-center items-center flex-col gap-5  m-auto rounded-2xl bg-[#ccc6c6] border-4 relative;
+}
+.container {
+  @apply sm:bg-gray-400 md:bg-gray-300 lg:bg-gray-200;
+}
+.input {
+  @apply bg-[#ceebf2]
+   ml-[20px] 
+   rounded-[8px] 
+   mt-4
+   text-[16px]
+   outline-none  border-2 w-[90%] py-2 px-3;
+}
+.bell {
+  @apply ml-[25px]
+    relative 
+    top-[10px];
+}
+
+.checkbox {
+  @apply accent-[#e6edef]
+   cursor-pointer
+   text-red-400
+   scale-125;
+}
+form {
+  @apply shadow-lg
+  shadow-gray-600;
+}
+.login-btn {
+  @apply block 
+  w-full
+  mt-[20px] 
+  h-[32px]
+  rounded-md
+  uppercase
+text-white
+  font-semibold
+  relative
+  bottom-[10px]
+bg-[#278092];
+}
+.login-btn:hover {
+  @apply bg-[#2a92a6];
+}
+#icon {
+  @apply h-[80px]
+  w-[70px] 
+  scale-150
+  ml-[345px]
+  relative
+  bottom-[30px]
+  z-[10px]
+  right-[20px]
+  cursor-pointer;
+}
+
+.logout {
+  @apply text-white 
+  tracking-wide 
+  font-semibold 
+  text-lg 
+  rounded-md
+   relative border-[3px] 
+   w-[100px]
+    bg-green-700;
+}
+
+.form-group {
+  @apply flex flex-col gap-4;
+}
+.checkcon {
+  @apply relative bottom-2;
+}
+input {
+  @apply border-[2px] rounded-[5px] h-[35px] p-[10px]
+   bg-[#e6edef] outline-none;
+}
+
+label {
+  @apply relative top-[13px];
+}
+
+.checkspan {
+  @apply relative bottom-[13px] left-[8px];
+}
+
+.forgot-password {
+  @apply font-semibold;
+}
+
+.profile-container {
+  @apply hidden;
+}
+
+.profile-details {
+  @apply block;
+}
+.details-btn {
+  @apply absolute top-4 right-8 text-2xl text-sky-500;
+}
+.details-btn {
+  @apply lg:hidden;
+}
+.profile-details {
+  @apply lg:hidden;
+}

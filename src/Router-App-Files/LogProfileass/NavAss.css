@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .div-icon:hover .icon {
+  @apply text-red-600;
+} */
+.icon-div:hover {
+  background-color: red;
+  cursor: pointer;
+  transition: all ease-in-out 700ms;
+}
+.icon-div:hover .home {
+  color: white;
+}
+.icon-div:hover h2 {
+  color: white;
+}
