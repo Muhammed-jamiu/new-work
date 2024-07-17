@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply h-[100%] bg-gray-400;
+}
+
+.container {
+  @apply h-full w-full flex justify-center items-center gap-[10px] p-[10px];
+}
+
+.box {
+  @apply border-[2px] h-[300px] w-[500px] mt-[50px] ml-[30px] p-[5px]  rounded-lg shadow-xl shadow-black bg-white;
+}
+
+.main-btn {
+  @apply flex justify-between p-[5px];
+}
+.control-btn {
+  @apply flex gap-[12px] relative top-[40px] right-[10px];
+}
+.action-btn {
+  @apply border-[2px] h-6 rounded-lg  w-[80px] text-xs bg-gray-500 text-white hover:bg-gray-400;
+}
+
+h2 {
+  @apply font-serif font-semibold text-lg underline ml-[10px];
+}

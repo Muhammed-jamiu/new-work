@@ -1,5 +1,6 @@
 import React from "react";
 import IsSpeak from "./IsSpeak";
+import "./Speak.css";
 
 function SpeakApp() {
   return (

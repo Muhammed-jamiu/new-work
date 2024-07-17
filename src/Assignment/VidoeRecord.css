@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply border-2 w-[130px] rounded-md border-sky-600 text-white hover:bg-gray-200 hover:text-black;
+}

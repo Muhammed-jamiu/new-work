@@ -18,13 +18,9 @@ body,
 .container {
   @apply sm:bg-gray-400 md:bg-gray-300 lg:bg-gray-200;
 }
-.input {
-  @apply bg-[#ceebf2]
-   ml-[20px] 
-   rounded-[8px] 
-   mt-4
-   text-[16px]
-   outline-none  border-2 w-[90%] py-2 px-3;
+
+input[type="text"] {
+  @apply text-green-700 italic;
 }
 .bell {
   @apply ml-[25px]

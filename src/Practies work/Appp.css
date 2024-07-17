@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-400;
+}
+
+.container {
+  @apply bg-white;
+}
+img {
+  @apply p-1;
+}
+
+.list-con {
+  @apply bg-gray-200 border-gray-400 transition-all;
+}
+/* .hide-btn {
+  @apply hidden;
+} */
+.arrow-con:hover .arrow-up {
+  @apply rotate-[180deg];
+}
+
+.icon {
+  @apply hover:text-xl hover:transition-all;
+}
+.icon:last-child:hover {
+  @apply text-2xl;
+}

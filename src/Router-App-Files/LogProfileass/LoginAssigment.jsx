@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-
 import { useNavigate } from "react-router";
-import "./NavAss.css";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaMicrophone } from "react-icons/fa";
+import { FaMicrophoneAltSlash } from "react-icons/fa";
 function LoginAssigment() {
   const [errorMsg, setErrorMsg] = useState("");
   const [errorMsg1, setErrorMsg1] = useState("");
@@ -45,7 +45,7 @@ function LoginAssigment() {
 
   return (
     <>
-      <div className="h-full w-full flex justify-center items-center  login-container ">
+      <div className="h-full w-full flex justify-center items-center  login-container">
         <form
           onSubmit={handleLogin}
           className="
@@ -71,6 +71,7 @@ function LoginAssigment() {
           <div className="form-group">
             <label>E-mail</label>
             <input
+              placeholder=" Enter valid e-mail here ..."
               id="userName"
               value={userName}
               onChange={(e) => {
@@ -87,6 +88,7 @@ function LoginAssigment() {
               onChange={(e) => {
                 setPassword(e.target.value);
               }}
+              placeholder="Enter valid password here..."
               name="password"
               id="passwordInput"
               className=""
@@ -100,7 +102,7 @@ function LoginAssigment() {
                 onClick={checkPassword}
                 id="eye-on"
                 src="/eye-on.svg"
-                className="h-[25px] w-[30px] relative left-[302px] bottom-[30px] inline-block "
+                className="h-[25px] w-[30px] relative left-[302px] bottom-[30px] inline-block hover:cursor-pointer "
                 alt=""
               />
             </span>
@@ -110,7 +112,7 @@ function LoginAssigment() {
                 onClick={checkPassword}
                 id="eye-off"
                 src="/eye-off.svg"
-                className="h-[25px] w-[30px] relative left-[302px] bottom-[30px] hidden "
+                className="h-[25px] w-[30px] relative left-[302px] bottom-[30px] hidden  hover:cursor-pointer"
                 alt=""
               />
             </span>
